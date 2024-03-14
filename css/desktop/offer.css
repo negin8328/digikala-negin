@@ -1,0 +1,92 @@
+.offer {
+  width: 80%;
+  .offerChild {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .offerChildOne {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 24px;
+      & h2 {
+        font-size: 19px;
+        font-family: IRANYEKAN;
+        padding: 8px;
+        color: #0c0c0c;
+      }
+    }
+    .offerChildTwo {
+      width: 100%;
+      border-radius: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+.offerLink {
+  width: 100%;
+  & a {
+    border: 1px solid #e0e0e2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    padding: 23px;
+    .OfferPack {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      & h4 {
+        font-size: 60%;
+        font-family: IRANYEKAN;
+        margin-top: 17px;
+        color: #0c0c0c;
+      }
+      .offerImage {
+        width: 57%;
+        background-color: #f0f0f1;
+        padding: 12px;
+        border-radius: 50%;
+        & div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          & img {
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

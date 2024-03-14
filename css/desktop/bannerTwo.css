@@ -1,0 +1,14 @@
+.bannerTwo {
+  width: 80%;
+  display: flex;
+  & a {
+    margin-right: 16px;
+    & img {
+      width: 100%;
+      border-radius: 16px;
+    }
+  }
+  & :nth-last-of-type(4) {
+    margin-right: 0px;
+  }
+}

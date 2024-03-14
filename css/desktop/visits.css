@@ -1,0 +1,290 @@
+.visits {
+  width: 80%;
+  .visitsActive {
+    width: 100%;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    gap: 1px;
+    display: flex;
+    .visitChildOne {
+      padding: 8px 20px;
+      background-color: #ffffff;
+      border-radius: 16px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .visitOne {
+        width: 100%;
+        & div {
+          width: 100%;
+          margin: 8px;
+          & p {
+          }
+          & div {
+            width: 100%;
+            & h4 {
+              font-family: IRANYEKAN;
+            }
+          }
+        }
+      }
+      .visitTwo {
+        gap: 1px;
+        width: 100%;
+        display: grid;
+        background-color: #f0f0f1;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        & a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          & span {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .visitImage {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              & img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+      .visitThree {
+        width: 100%;
+        margin: 10px 0px 12px;
+        & a {
+          width: 100%;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          & span {
+            font-family: IRANYEKAN;
+            color: #19bfd3;
+            padding-left: 5px;
+          }
+          & div {
+            & svg {
+            }
+          }
+        }
+      }
+    }
+    .visitChildTwo {
+      padding: 8px 20px;
+      background-color: #ffffff;
+      border-radius: 16px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .visitOne {
+        width: 100%;
+        & div {
+          width: 100%;
+          margin: 8px;
+          & p {
+          }
+          & div {
+            width: 100%;
+            & h4 {
+              font-family: IRANYEKAN;
+            }
+          }
+        }
+      }
+      .visitTwo {
+        gap: 1px;
+        width: 100%;
+        display: grid;
+        background-color: #f0f0f1;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        & a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          & span {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .visitImage {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              & img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+      .visitThree {
+        width: 100%;
+        margin: 10px 0px 12px;
+        & a {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          & span {
+            font-family: IRANYEKAN;
+            color: #19bfd3;
+            padding-left: 5px;
+          }
+          & div {
+            & svg {
+            }
+          }
+        }
+      }
+    }
+    .visitChildThree {
+      padding: 8px 20px;
+      background-color: #ffffff;
+      border-radius: 16px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .visitOne {
+        width: 100%;
+        & div {
+          width: 100%;
+          margin: 8px;
+          & p {
+          }
+          & div {
+            width: 100%;
+            & h4 {
+              font-family: IRANYEKAN;
+            }
+          }
+        }
+      }
+      .visitTwo {
+        gap: 1px;
+        width: 100%;
+        display: grid;
+        background-color: #f0f0f1;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        & a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          & span {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .visitImage {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              & img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+      .visitThree {
+        width: 100%;
+        margin: 10px 0px 12px;
+        & a {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          & span {
+            font-family: IRANYEKAN;
+            color: #19bfd3;
+            padding-left: 5px;
+          }
+          & div {
+            & svg {
+            }
+          }
+        }
+      }
+    }
+    .visitChildFour {
+      padding: 8px 20px;
+      background-color: #ffffff;
+      border-radius: 16px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .visitOne {
+        width: 100%;
+        & div {
+          width: 100%;
+          margin: 8px;
+          & p {
+          }
+          & div {
+            width: 100%;
+            & h4 {
+              font-family: IRANYEKAN;
+            }
+          }
+        }
+      }
+      .visitTwo {
+        gap: 1px;
+        width: 100%;
+        display: grid;
+        background-color: #f0f0f1;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        & a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          & span {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .visitImage {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              & img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+      .visitThree {
+        margin: 10px 0px 12px;
+        width: 100%;
+        & a {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          & span {
+            font-family: IRANYEKAN;
+            color: #19bfd3;
+            padding-left: 5px;
+          }
+          & div {
+            & svg {
+            }
+          }
+        }
+      }
+    }
+  }
+}

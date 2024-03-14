@@ -1,0 +1,48 @@
+.Read {
+  width: 80%;
+  .ReadActive {
+    .ReadText {
+      display: flex;
+      padding: 16px 20px;
+      justify-content: space-between;
+      align-items: center;
+      & p {
+        font-family: IRANYEKAN;
+      }
+      & a {
+        text-decoration: none;
+        display: flex;
+        .ReadTexts {
+          & P {
+            font-family: IRANYEKAN;
+            color: #19bfd3;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+    .ReadImage {
+      gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      & a {
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        text-decoration: none;
+        & img {
+          width: 100%;
+          border-radius: 8px 8px 0px 0px;
+        }
+        & p {
+          font-family: IRANYEKAN;
+          margin: 8px 0px 12px;
+          padding: 0px 16px;
+          color: #0c0c0c;
+          line-height: 2.17;
+          font-size: 10px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

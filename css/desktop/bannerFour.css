@@ -1,0 +1,13 @@
+.bannerFour {
+  width: 80%;
+  display: flex;
+  & a {
+    & img {
+      width: 100%;
+      border-radius: 16px;
+    }
+  }
+  & a:nth-last-of-type(1) {
+    margin-right: 16px;
+  }
+}

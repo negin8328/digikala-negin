@@ -1,0 +1,89 @@
+.amazingMarket {
+  width: 80%;
+  height: 110px;
+  background-color: #3dbc3b;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  .childOne {
+    width: 37.248%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .percent-ice {
+      width: 14.152%;
+      & img {
+        width: 100%;
+      }
+    }
+    .fresh-white {
+      width: 53.605%;
+      margin-left: 20px;
+      margin-right: 20px;
+      & img {
+        width: 100%;
+      }
+    }
+    .discount {
+      width: 32.243%;
+      & div {
+        width: 100%;
+        background-color: #39ae00;
+        padding: 0px 12px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        & p {
+          color: #ffffff;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .childTwo {
+    width: 50.807%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .morgh {
+      width: 78.95%;
+      display: flex;
+      & div {
+        width: 100%;
+        margin: 0px 0px 0px 8px;
+        & a {
+          width: 100%;
+          & img {
+            width: 100%;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .kalaOne {
+      width: 21.05%;
+      .kala {
+        width: 100%;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+        & span {
+          color: #39ae00;
+          font-size: 12px;
+          margin-left: 7px;
+        }
+      }
+    }
+  }
+}

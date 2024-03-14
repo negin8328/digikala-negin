@@ -1,0 +1,10 @@
+.bannerFive {
+  width: 80%;
+  & a {
+    width: 100%;
+    & img {
+      border-radius: 16px;
+      width: 100%;
+    }
+  }
+}

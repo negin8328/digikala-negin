@@ -1,0 +1,51 @@
+.brands {
+  width: 80%;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+  padding: 24px 0px;
+  .brandOne {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    & p {
+      font-family: IRANYEKAN;
+      font-size: 21px;
+      color: #0c0c0c;
+      padding: 23px;
+    }
+  }
+  .brandTwo {
+    margin-top: 12px;
+    .brandActive {
+      & a {
+        padding: 4px 16px;
+        .brandImage {
+          & img {
+          }
+        }
+      }
+    }
+  }
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

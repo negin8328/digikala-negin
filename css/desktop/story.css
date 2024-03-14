@@ -1,0 +1,57 @@
+.story{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.story .centerStory{
+    width: 80%;
+    height: inherit;
+    
+
+}
+.story .centerStory .swiper-slide{
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px !important;
+    
+}
+.story .centerStory .swiper-slide div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.story .centerStory .swiper-slide div .top{
+    width: inherit;
+    height: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    
+}
+.story .centerStory .swiper-slide div .bottom{
+    width: inherit;
+    height: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.story .centerStory .swiper-slide img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    outline: 2px solid #BD4298;
+    outline-offset: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.story .centerStory .swiper-slide h5{
+    font-family: IRANYEKAN;
+    font-size: 12px;
+    line-height: 20px;
+    color: #474648;
+}
